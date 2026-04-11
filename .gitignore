@@ -211,3 +211,6 @@ __marimo__/
 # ---------------------------------------------------
 data/
 *.zip
+
+# Trained weights
+models/checkpoints/
