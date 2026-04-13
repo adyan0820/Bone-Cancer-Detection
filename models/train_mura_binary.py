@@ -79,6 +79,7 @@ def build_mura_resnet_model(img_size: int) -> tf.keras.Model:
         input_shape=(img_size, img_size, 3),
         include_top=False,
         weights="imagenet",
+        name="radiograph_backbone",
     )
     backbone.trainable = False
 
